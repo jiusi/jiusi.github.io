@@ -1,10 +1,10 @@
 
-  <!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <html >
 <head>
   <meta charset="UTF-8">
   
-    <title>Archives: 2016 | 九思</title>
+    <title>九思</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Hang Zhao">
@@ -22,9 +22,9 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-    <body>
-      <header>
-        <div>
+  <body>
+    <header>
+      <div>
 		
 			<div id="imglogo">
 				<a href="/"><img src="/img/logo.svg" alt="九思" title="九思"/></a>
@@ -56,20 +56,9 @@
 			</nav>			
 </div>
 
-      </header>
-      <div id="container">
-        
-
-<div class="archive-title" >
-  <h2 class="archive-icon">2016</h2>
-  
-  <div class="archiveslist archive-float clearfix">
-   <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a><span class="archive-list-count">1</span></li></ul>
- </div>
-  
-</div>
-<div id="main" class="archive-part clearfix">
-  <div id="archive-page">
+    </header>
+    <div id="container">
+      <div id="main">
 
   <section class="post" itemscope itemprop="blogPost">
   
@@ -77,16 +66,72 @@
   
     <h1 itemprop="name">Virtualenv</h1>
     
+     
+           <p itemprop="description" >Virtualenv 虚拟环境
+新建文件夹，生成虚拟环境所在目录
+$mkdir myproject
+
+
+切换到虚拟环境所在目录
+cd myproject
+
+
+创建虚拟环境venv
+virtualenv –no-site-pacjages venv
+
+
+进入虚拟环境
+source </p>
+        
+    
     <time datetime="2016-09-08T16:00:00.000Z" itemprop="datePublished">2016-09-09</time>
   </a>
 </section>
 
 
-  </div>
+</div>
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">Categories</p>
+		<ul>
+		
+			<li><a href="/categories/日志/" title="日志">日志<sup>1</sup></a></li>
+		
+			<li><a href="/categories/日志/第一天/" title="第一天">第一天<sup>1</sup></a></li>
+		
+		</ul>
 </div>
 
-      </div>
-      <footer><div id="footer" >
+
+  
+<div class="tagslist">
+	<p class="asidetitle">Tags</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/Ubuntu/" title="Ubuntu">Ubuntu<sup>1</sup></a></li>
+		
+			<li><a href="/tags/命令/" title="命令">命令<sup>1</sup></a></li>
+		
+			<li><a href="/tags/虚拟环境/" title="虚拟环境">虚拟环境<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="rsspart">
+	<a href="null" target="_blank" title="rss">RSS</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
 	
 	<div class="line">
 		<span></span>
@@ -108,7 +153,7 @@
 		</p>
 </div>
 </footer>
-      <script src="/js/jquery-2.1.0.min.js"></script>
+    <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
   $('.navbar').click(function(){
@@ -160,5 +205,5 @@ $(document).ready(function(){
 
 
 
-    </body>
-   </html>
+  </body>
+ </html>
