@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Ubuntu,Python,隔离环境," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -84,16 +84,15 @@
 
 
 
-<meta name="description" content="一般在开发Python应用程序时，系统安装Python的一个版本，如3.4。在安装第三方包时，都会安装在Python3的 site-packages目录下。　　如果我们要同时开发多个应用程序，这些程序会公用该Python及其目录下的第三方包。但如果A程序需要jinja2.7，而B程序需要jinja2.6,这时就可能会出现版本问题。">
-<meta property="og:type" content="article">
-<meta property="og:title" content="在Ubuntu下使用Virtualenv创建隔离的Python环境">
-<meta property="og:url" content="http://yoursite.com/2016/09/09/Virtualenv/index.html">
+<meta name="description" content="心如止水">
+<meta property="og:type" content="website">
+<meta property="og:title" content="九思">
+<meta property="og:url" content="http://yoursite.com/tags/MySQL/index.html">
 <meta property="og:site_name" content="九思">
-<meta property="og:description" content="一般在开发Python应用程序时，系统安装Python的一个版本，如3.4。在安装第三方包时，都会安装在Python3的 site-packages目录下。　　如果我们要同时开发多个应用程序，这些程序会公用该Python及其目录下的第三方包。但如果A程序需要jinja2.7，而B程序需要jinja2.6,这时就可能会出现版本问题。">
-<meta property="og:updated_time" content="2016-09-10T03:43:22.052Z">
+<meta property="og:description" content="心如止水">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="在Ubuntu下使用Virtualenv创建隔离的Python环境">
-<meta name="twitter:description" content="一般在开发Python应用程序时，系统安装Python的一个版本，如3.4。在安装第三方包时，都会安装在Python3的 site-packages目录下。　　如果我们要同时开发多个应用程序，这些程序会公用该Python及其目录下的第三方包。但如果A程序需要jinja2.7，而B程序需要jinja2.6,这时就可能会出现版本问题。">
+<meta name="twitter:title" content="九思">
+<meta name="twitter:description" content="心如止水">
 
 
 
@@ -114,9 +113,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2016/09/09/Virtualenv/"/>
+  <link rel="canonical" href="http://yoursite.com/tags/MySQL/"/>
 
-  <title> 在Ubuntu下使用Virtualenv创建隔离的Python环境 | 九思 </title>
+  <title> 标签: MySQL | 九思 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -147,7 +146,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right page-post-detail ">
+  <div class="container one-collumn sidebar-position-right  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -225,185 +224,46 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                在Ubuntu下使用Virtualenv创建隔离的Python环境
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-09T00:00:00+08:00" content="2016-09-09">
-              2016-09-09
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/日志/" itemprop="url" rel="index">
-                    <span itemprop="name">日志</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-
-			
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p>　　一般在开发Python应用程序时，系统安装Python的一个版本，如3.4。在安装第三方包时，都会安装在Python3的 <code>site-packages</code>目录下。<br>　　如果我们要同时开发多个应用程序，这些程序会公用该Python及其目录下的第三方包。但如果A程序需要<code>jinja2.7</code>，而B程序需要<code>jinja2.6</code>,这时就可能会出现版本问题。<a id="more"></a><br>　　此时，每个程序都需要自己的一个独立的Python环境，<code>Virtualenv</code>就是用来创建隔离的Python运行环境。</p>
-<ul>
-<li><p>使用pip来安装virtualenv</p>
-<blockquote>
-<p>$pip3 install virtualenv</p>
-</blockquote>
-</li>
-<li><p>新建文件夹，生成虚拟环境所在目录</p>
-<blockquote>
-<p>$mkdir myproject</p>
-</blockquote>
-</li>
-<li><p>切换到虚拟环境所在目录</p>
-<blockquote>
-<p>$cd myproject</p>
-</blockquote>
-</li>
-</ul>
-<ul>
-<li>创建虚拟环境venv<blockquote>
-<p>$virtualenv –no-site-packages venv</p>
-</blockquote>
-</li>
-</ul>
-<p>　　此时，就会创建一个独立的Python环境，加上参数==–no-site-packages==，这样，已经装在Python环境下的第三方包就不会复制过来。就相当于我们获得了一个不带任何第三方包的干净的Python运行环境。（上边venv是自己定义的环境名称）</p>
-<ul>
-<li>进入虚拟环境<blockquote>
-<p>$source venv/bin/activate</p>
-</blockquote>
-</li>
-</ul>
-<p>　　在venv环境下，pip安装的包都会被安装在venv这个环境下</p>
-<ul>
-<li>退出虚拟环境<blockquote>
-<p>$deactivate</p>
-</blockquote>
-</li>
-</ul>
-<font color="#4590a3" size="５px">本文是使用Hexo创建的第一篇文章，算是初级入门，如有什么错误请多多指出。</font>
-      
+  <div id="posts" class="posts-collapse">
+    <div class="collection-title">
+      <h2 >
+        MySQL
+        <small>标签</small>
+      </h2>
     </div>
 
-    <div>
+    
       
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h1 class="post-title">
         
-
-      
-    </div>
-
-    <div>
-      
+            <a class="post-title-link" href="/2016/09/10/MySQL安装及基本操作/" itemprop="url">
+              
+                <span itemprop="name">MySQL安装及基本操作</span>
+              
+            </a>
         
+      </h1>
 
-      
-    </div>
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2016-09-10T13:22:24+08:00"
+              content="2016-09-10" >
+          09-10
+        </time>
+      </div>
 
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/Ubuntu/" rel="tag">#Ubuntu</a>
-          
-            <a href="/tags/Python/" rel="tag">#Python</a>
-          
-            <a href="/tags/隔离环境/" rel="tag">#隔离环境</a>
-          
-        </div>
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/09/10/一些命令/" rel="prev" title="一些Ubuntu命令">
-                一些Ubuntu命令 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
+    </header>
   </article>
 
 
-
-    <div class="post-spread">
-      
-    </div>
+    
   </div>
+
+  
 
 
           </div>
@@ -411,10 +271,6 @@
 
 
           
-  <div class="comments" id="comments">
-    
-  </div>
-
 
         </div>
         
@@ -434,17 +290,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel ">
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
@@ -505,17 +352,6 @@
 
       </section>
 
-      
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-            
-              
-            
-            
-              <p class="post-toc-empty">此文章未包含目录</p>
-            
-          </div>
-        </section>
       
 
     </div>
@@ -621,10 +457,6 @@
 
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
-
-
 
   
 
