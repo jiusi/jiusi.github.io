@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+  <url>
+    <loc>http://jiusi.github.io/2016/09/09/Virtualenv/</loc>
+    <lastmod>2016-09-10T01:44:17.452Z</lastmod>
+    <data>
+        <display>
+        <title>在Ubuntu下使用Virtualenv创建隔离的Python环境</title>
+        <pubTime>2016-09-08T16:00:00.000Z</pubTime>
+        
+        <tag>Ubuntu</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>隔离环境</tag>
+         
+         
+           
+             
+              <breadCrumb title="日志" url="http://jiusi.github.io/categories/%E6%97%A5%E5%BF%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+</urlset>
