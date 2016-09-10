@@ -239,7 +239,7 @@
               
                 
                 <a class="post-title-link" href="/2016/09/09/Virtualenv/" itemprop="url">
-                  使用Virtualenv创建隔离的Python环境
+                  在Ubuntu下使用Virtualenv创建隔离的Python环境
                 </a>
               
             
@@ -300,24 +300,7 @@
 
       
         
-          <h1 id="在Ubuntu下使用Virtualenv创建隔离的Python环境"><a href="#在Ubuntu下使用Virtualenv创建隔离的Python环境" class="headerlink" title="在Ubuntu下使用Virtualenv创建隔离的Python环境"></a><center>在Ubuntu下使用Virtualenv创建隔离的Python环境</center></h1><p>　　一般在开发Python应用程序时，系统安装Python的一个版本，如3.4。在安装第三方包时，都会安装在Python3的 ==site-packages==目录下。<br>　　如果我们要同时开发多个应用程序，这些程序会公用该Python及其目录下的第三方包。但如果A程序需要==jinja2.7==，而B程序需要==jinja2.6==,这时就可能会出现版本问题。<br>　　此时，每个程序都需要自己的一个独立的Python环境，==Virtualenv==就是用来创建隔离的Python运行环境。</p>
-<ul>
-<li><p>使用pip来安装virtualenv</p>
-<blockquote>
-<p>$pip3 install virtualenv</p>
-</blockquote>
-</li>
-<li><p>新建文件夹，生成虚拟环境所在目录</p>
-<blockquote>
-<p>$mkdir myproject</p>
-</blockquote>
-</li>
-<li><p>切换到虚拟环境所在目录</p>
-<blockquote>
-<p>$cd myproject</p>
-</blockquote>
-</li>
-</ul>
+          <p>　　一般在开发Python应用程序时，系统安装Python的一个版本，如3.4。在安装第三方包时，都会安装在Python3的 <code>site-packages</code>目录下。<br>　　如果我们要同时开发多个应用程序，这些程序会公用该Python及其目录下的第三方包。但如果A程序需要<code>jinja2.7</code>，而B程序需要<code>jinja2.6</code>,这时就可能会出现版本问题。<br>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/09/09/Virtualenv/#more" rel="contents">
               阅读全文 &raquo;
