@@ -4,18 +4,16 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/09/09/Virtualenv/</loc>
-    <lastmod>2016-09-10T06:24:06.984Z</lastmod>
+    <loc>http://yoursite.com/2016/09/10/MySQL%E5%AE%89%E8%A3%85%E5%8F%8A%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2016-09-10T07:40:24.332Z</lastmod>
     <data>
         <display>
-        <title>使用Virtualenv创建隔离的Python环境</title>
-        <pubTime>2016-09-08T16:00:00.000Z</pubTime>
+        <title>MySQL安装及基本操作</title>
+        <pubTime>2016-09-10T05:22:24.000Z</pubTime>
         
+        <tag>MySQL</tag>
+         
         <tag>Ubuntu</tag>
-         
-        <tag>Python</tag>
-         
-        <tag>隔离环境</tag>
          
          
            
@@ -28,16 +26,18 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/09/10/MySQL%E5%AE%89%E8%A3%85%E5%8F%8A%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</loc>
-    <lastmod>2016-09-10T06:20:31.676Z</lastmod>
+    <loc>http://yoursite.com/2016/09/09/Virtualenv/</loc>
+    <lastmod>2016-09-10T06:24:06.984Z</lastmod>
     <data>
         <display>
-        <title>MySQL安装及基本操作</title>
-        <pubTime>2016-09-10T05:22:24.000Z</pubTime>
+        <title>使用Virtualenv创建隔离的Python环境</title>
+        <pubTime>2016-09-08T16:00:00.000Z</pubTime>
         
-        <tag>MySQL</tag>
-         
         <tag>Ubuntu</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>隔离环境</tag>
          
          
            
