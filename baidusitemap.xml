@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://jiusi.github.io/2016/09/10/%E4%B8%80%E4%BA%9B%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2016-09-11T08:13:33.136Z</lastmod>
+    <data>
+        <display>
+        <title>一些Ubuntu命令</title>
+        <pubTime>2016-09-10T03:52:22.000Z</pubTime>
+        
+        <tag>Ubuntu</tag>
+         
+        <tag>命令</tag>
+         
+         
+           
+             
+              <breadCrumb title="日志" url="http://jiusi.github.io/categories/%E6%97%A5%E5%BF%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jiusi.github.io/2016/09/10/MySQL%E5%AE%89%E8%A3%85%E5%8F%8A%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2016-09-11T07:41:55.096Z</lastmod>
     <data>
@@ -38,28 +60,6 @@
         <tag>Python</tag>
          
         <tag>隔离环境</tag>
-         
-         
-           
-             
-              <breadCrumb title="日志" url="http://jiusi.github.io/categories/%E6%97%A5%E5%BF%97/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jiusi.github.io/2016/09/10/%E4%B8%80%E4%BA%9B%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2016-09-10T03:56:31.452Z</lastmod>
-    <data>
-        <display>
-        <title>一些Ubuntu命令</title>
-        <pubTime>2016-09-10T03:52:22.000Z</pubTime>
-        
-        <tag>Ubuntu</tag>
-         
-        <tag>命令</tag>
          
          
            
